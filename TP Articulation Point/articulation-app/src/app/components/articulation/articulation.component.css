@@ -1,0 +1,139 @@
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 5px 5px 15px #f5f5f5, -5px -5px 15px #ffffff;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .container:hover {
+    transform: translateY(-3px);
+    box-shadow: 10px 10px 25px #cacaca, -10px -10px 25px #ffffff;
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #007bff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+  }
+  
+  .container h2::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background: #f0f0f0;
+    font-size: 1rem;
+    color: #333;
+    transition: box-shadow 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+  }
+  
+  .container p {
+    font-size: 0.95rem;
+    color: #555;
+    background: #f7f7f7;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin: 0.5rem 0;
+  }
+  
+  button {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    border: none;
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: linear-gradient(145deg, #0056b3, #004080);
+    transform: scale(1.05);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+    background: linear-gradient(145deg, #004080, #003366);
+  }
+  
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .graph-container {
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  svg {
+    background-color: #f9f9f9;
+  }
+  
+  .nodes circle {
+    cursor: pointer;
+    transition: fill 0.3s;
+  }
+  
+  .nodes circle:hover {
+    fill: #e0e0e0;
+  }
+  
+  .nodes circle.articulation-point {
+    fill: #ff6b6b;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  input {
+    margin: 0 5px;
+    padding: 5px;
+  }
+  
