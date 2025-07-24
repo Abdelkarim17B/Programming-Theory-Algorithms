@@ -8,7 +8,7 @@ School projects & personal explorations in **graph algorithms (DFS, BFS), optimi
 - **Languages**: Go, C, JavaScript (+ Angular experiments)  
 
 ### Shoutout  
-👯 **Binome**: Mahdia Toubal — *Collaborator on this work*  
+👯 **Binome**: [Mahdia Toubal](https://github.com/miaa-T) — *Collaborator on this work*  
 
 ---  
 *Making CS theory fun through code!*  
